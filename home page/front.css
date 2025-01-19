@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    padding: 10px 35px;
+    height: 35px;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0);
+}
+
+.navbar a {
+    position: relative;
+    right: 100px;
+    cursor: pointer;
+    padding: 5px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-family: "Inter", serif;
+}
+
+.start {
+    position: relative;
+    right: 220px;
+    font-family: "Inspiration", serif;
+    font-size: 24px;
+    bottom: 24px;
+    cursor: pointer;
+}
+
+body {
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+.con {
+    cursor: pointer;
+    position: absolute;
+    right: 35px;
+    background-color: #920dc9;
+    height: 35px;
+    width: 100px;
+    color: white;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.container {
+    position: relative;
+    background-color: white;
+    height: 300px;
+    width: 800px;
+    border: solid 1px;
+    margin: 30px;
+    right: 50px;
+
+}
+
+.maincontent {
+    position: relative;
+    margin: 60px;
+    left: 30px;
+    padding: 20px;
+    border: solid 1px;
+}
+
+p {
+    font-size: 23px;
+}
+
+.container img {
+    position: absolute;
+    left: 800px;
+    height: 380px;
+    width: 450px;
+
+}
+
+div h3 {
+    font-family: "Inter", serif;
+    font-size: 35px;
+    text-shadow: 1px 1px 1px black;
+
+}
+
+span {
+    color: #920dc9;
+}
+
+.bn {
+    position: relative;
+    bottom: 14px;
+    margin: 0px;
+    border-radius: 5px;
+    height: 40px;
+    width: 120px;
+    color: aliceblue;
+    background-color: blue;
+
+}
+
+.navbar img {
+    position: relative;
+    right: 190px;
+    height: 26px;
+}
